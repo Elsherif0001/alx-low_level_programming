@@ -13,11 +13,10 @@ int main(void)
 	int sr;
 	int us;
 
-	for (sr = 'a' ; sr <= 'z' ; sr++)
+	for (sr = 'a'; sr <= 'z'; sr++)
 		putchar(sr);
-	for (us = 'A' ; us <= 'Z' ; us++)
+	for (us = 'A'; us <= 'Z'; us++)
 		putchar(us);
 	putchar('\n');
 	return (0);
-	/*prints alphapet in lower and upper*/
 }
