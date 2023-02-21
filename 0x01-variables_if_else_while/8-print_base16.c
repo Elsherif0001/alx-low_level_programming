@@ -12,7 +12,7 @@ int main(void)
 	int x;
 
 	for (h = '0'; h <= '9'; h++)
-		putchar(hex);
+		putchar(h);
 	for (x = 'a'; x <= 'f'; x++)
 		putchar(x);
 	putchar('\n');
