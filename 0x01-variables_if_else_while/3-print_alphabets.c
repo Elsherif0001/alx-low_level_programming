@@ -19,4 +19,5 @@ int main(void)
 		putchar(us);
 	putchar('\n');
 	return (0);
+	/*prints alphapet in lower and upper*/
 }
