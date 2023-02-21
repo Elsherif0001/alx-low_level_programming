@@ -8,13 +8,13 @@
  **/
 int main(void)
 {
-	int sa;
-	int bg;
+	int sr;
+	int bl;
 
-	for (sa = 'a'; sa <= 'z'; sa++)
-		putchar(sa);
-	for (bg = 'A'; bg <= 'Z'; bg++)
-		putchar(bg);
+	for (sr = 'a'; sr <= 'z'; sr++)
+		putchar(sr);
+	for (bl = 'A'; bl <= 'Z'; bl++)
+		putchar(bl);
 	putchar('\n');
 	return (0);
 }
