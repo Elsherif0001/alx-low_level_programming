@@ -10,7 +10,7 @@ int main(void)
 {
 	int q, v;
 
-	for (i = '0'; i <= '9'; i++)
+	for (q = '0'; q <= '9'; q++)
 	{
 		for (v = '0'; v <= '9'; v++)
 		{
