@@ -14,7 +14,7 @@ int main(void)
 	{
 		for (v = '0'; v <= '9'; v++)
 		{
-		if (q < w)
+		if (q < v)
 		{
 			putchar(q);
 			putchar(v);
