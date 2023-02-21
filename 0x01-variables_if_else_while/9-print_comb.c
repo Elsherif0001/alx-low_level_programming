@@ -1,19 +1,19 @@
-#include<stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Entry point 
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  **/
 int main(void)
 {
-	int su;
+	int sr;
 
-	for (su = '0'; su <= '9'; su++)
+	for (sr = '0'; sr <= '9'; sr++)
 	{
-		putchar(su);
-		if (su != '9')
+		putchar(sr);
+		if (sr != '9')
 	{
 		putchar(',');
 		putchar(' ');
