@@ -13,7 +13,7 @@ int main(void)
 	int n;
 
 	srand(time(0));
-		n = rand() - Rand_max / 2;
+		n = rand() - Rand_MAX / 2;
 	/*print whether the number stored in the variable n is positive or negative*/
 	if (n > 0)
 		printf("%d is positive\n", n);
