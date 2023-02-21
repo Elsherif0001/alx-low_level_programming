@@ -1,10 +1,10 @@
-#include<stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 /**
  * main - Entry point
  *
- *description : Write a program that prints the alphabet in lowercase, and then in uppercase, followed by a new line.
+ *description : a program that prints the alphabet in lowercase, and then in uppercase, in a new line.
  *
  * Return Always 0 (Success)
  **/
