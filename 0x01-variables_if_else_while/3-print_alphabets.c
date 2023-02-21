@@ -1,20 +1,20 @@
-#include <stdio.h>
+#include<stdio.h>
 #include <stdlib.h>
 #include <time.h>
 /**
- *main - Entry point
+ * main - Entry point
  *
- *Return Always 0 (Success)
+ * Return: Always 0 (Success)
  **/
 int main(void)
 {
-	int sr;
-	int us;
+	int sa;
+	int bg;
 
-	for (sr = 'a'; sr <= 'z'; sr++)
-		putchar(sr);
-	for (us = 'A'; us <= 'Z'; us++)
-		putchar(us);
+	for (sa = 'a'; sa <= 'z'; sa++)
+		putchar(sa);
+	for (bg = 'A'; bg <= 'Z'; bg++)
+		putchar(bg);
 	putchar('\n');
 	return (0);
 }
